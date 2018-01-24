@@ -6,13 +6,16 @@
 ## Description
 This is a raw proof of concept of dungeon geometry generator for some generic roguelike or dungeon crawler game. It should be modified to suit need of gameplay specifics and transformed to fit the tile grid of a game.
 
-## Input
+## Controls
+Use arrowkeys to move camera and numpad +/- to zoom in/out
+
+## Generator Input
 *  **Initial number of rooms.** It will be less in a final dungeon. 
 *  **Initial room spawn radius** The rooms will be randomly generated in given radius, but can exceed it after room separation stage.
 *  **Room size boundaries** Minimal and maximal sizes of room width and height. Distribution of room sizes will correspond to a normal distribution.
 *  **Generation seed**
 
-## Output
+## Generator Output
 * Array of main and additional rooms.
 * Array of passages between rooms.
 * Graph of passages between main rooms i.e. minimal spanning tree of the dungeon
