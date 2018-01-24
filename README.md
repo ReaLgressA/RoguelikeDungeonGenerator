@@ -1,6 +1,7 @@
 # Roguelike Dungeon Generator
 
-![Realtime Dungeon Generation](https://www.dropbox.com/s/xzq3gbu2szel6jy/dungeon_realtime_generation.gif?dl=1)
+<img src="https://www.dropbox.com/s/xzq3gbu2szel6jy/dungeon_realtime_generation.gif?dl=1" align="middle" width="1000"/>
+
 
 ## Description
 This is a raw proof of concept of dungeon geometry generator for some generic roguelike or dungeon crawler game. It should be modified to suit need of gameplay specifics and transformed to fit the tile grid of a game.
