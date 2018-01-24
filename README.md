@@ -26,7 +26,7 @@ Use arrowkeys to move camera and numpad +/- to zoom in/out
 3. After separation, the main rooms are getting selected by criteria of their area more than squared median of rooms sizes.
 4. Delaunay triangulation is used to build a graph of main rooms.
 5. For every edge of graph weight is calculated which is equal to squared distance between vertices. The Kruskal's algorithm is used to get the minimal spanning tree from obtained weighted graph.
-6. As a final step, I connect rooms with straight passages if they close enough on any axis or with L-shaped passage otherwise.
+6. As a final step, I connect rooms with straight passages if they close enough on any axis or with L-shaped passage otherwise and exclude all rooms which are not main or connected by any passage.
 
 ## Examples of generated dungeons
 <img src="images/Dungeon.PNG" align="middle"/>
