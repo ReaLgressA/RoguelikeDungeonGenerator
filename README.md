@@ -1,6 +1,6 @@
 # Roguelike Dungeon Generator
 
-<img src="images/dungeon_realtime_generation.gif" align="middle" width="1000"/>
+<img src="images/dungeon_realtime_generation.gif" align="middle" />
 
 
 ## Description
@@ -26,7 +26,7 @@ This is a raw proof of concept of dungeon geometry generator for some generic ro
 6. As a final step, I connect rooms with straight passages if they close enough on any axis or with L-shaped passage otherwise.
 
 ## Examples of generated dungeons
-<img src="images/Dungeon.PNG" align="middle" width="1000"/>
-<img src="images/Dungeon_2.PNG" align="middle" width="1000"/>
-<img src="images/Dungeon_3.PNG" align="middle" width="1000"/>
-<img src="images/Dungeon_4.PNG" align="middle" width="1000"/>
+<img src="images/Dungeon.PNG" align="middle"/>
+<img src="images/Dungeon_2.PNG" align="middle"/>
+<img src="images/Dungeon_3.PNG" align="middle"/>
+<img src="images/Dungeon_4.PNG" align="middle"/>
